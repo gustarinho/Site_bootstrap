@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Veja a nossa pizzaria! consulte sabores e preços e realiza o pedido.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Pizza Riba - Pizzaria</title>
+    <link rel="stylesheet" href=".\estilo\estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+         <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid m-1">
+        <img src="./fotos/logo.svg" alt="" width="70">
+        <a class="navbar-brand menu"><strong>Pizza Riba</strong></a>
+        <a class="menu" href="cardapio.html"><strong>Cardápio</strong></a>
+        <a class="menu" href="./sobre-nos.html"><strong>Sobre Nós</strong></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="pesquisar..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">concluir</button>
+        </form>
+      </div>
+    </nav>
+     <hr>
+    </header>
+    <main>
+        <section> 
+           <div class="container mt-4">
+                <h1 class="destaque"><strong>Destaque</strong></h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"  data-bs-pause="false">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./fotos/hoaluu-pizza-2589569_1920.jpg" alt="Pizza Ilustrativa" class="d-block w-100" >
+            </div>
+
+            <div class="carousel-item">
+                <img src="./fotos/mariya_m-salami-pizza-6593465_1920.jpg" alt="Pizza Ilustrativa" class="d-block w-100">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./fotos/zuzi99-pizza-3010062_1920.jpg" alt="Pizza Ilustrativa" class="d-block w-100">
+            </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            </div>
+            </div>
+        </section>
+        <section class="historia py-5">
+
+    <div class="container-historia">
+
+        <div class="historia-texto text-center py-5">
+            <h2><strong>Nossa História</strong></h2>
+
+            <p>
+                A <strong>Pizza Riba</strong> nasceu da paixão por pizzas artesanais e
+                pelo sabor tradicional italiano. Tudo começou com uma pequena
+                cozinha familiar, onde receitas simples e ingredientes frescos
+                eram preparados com muito cuidado e dedicação.
+                Inspirados pelas tradicionais pizzarias da Itália e pelos antigos
+                fornos a lenha, decidimos trazer essa experiência para nossa
+                comunidade. Cada receita foi sendo aperfeiçoada ao longo do tempo,
+                sempre buscando equilíbrio entre massa, molho e ingredientes
+                selecionados.
+            </p>
+            <p>
+                Nossa massa é preparada diariamente, utilizando técnicas
+                artesanais que garantem leveza, crocância e muito sabor.
+                O molho é feito com tomates selecionados e temperos naturais,
+                trazendo aquele gosto autêntico que torna cada pizza especial.
+                Com o passar dos anos, a Pizza Riba cresceu, mas nunca perdeu
+                aquilo que a tornou especial: o compromisso com a qualidade,
+                o respeito pelas receitas tradicionais e o carinho em cada
+                pizza preparada.
+            </p>
+
+            <p>
+                Hoje recebemos clientes de toda a cidade que procuram não
+                apenas uma boa pizza, mas também um ambiente acolhedor para
+                compartilhar momentos com amigos e família.
+                Nosso objetivo continua o mesmo desde o primeiro dia:
+                oferecer pizzas saborosas, feitas com ingredientes frescos
+                e muito amor pela gastronomia.
+            </p>
+        </div>
+    </div>
+   </section>
+<h3 class="titulo-2"><strong>As Nossas Melhores Pizzas</strong></h3><br>
+
+<section class="conteudo">  
+    <div class="card" style="width: 18rem;">
+      <img src="./fotos/Napolitana.jpg" alt="Pizza Napolitana">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title"><strong>Napolitana</strong></h5> 
+        <p class="card-text">Nápoles é considerada o berço da pizza italiana e é onde estão os registros mais antigos dessa receita.
+             Ela é, portanto, a forma mais tradicional, tendo a massa aberta no momento do preparo.
+              É alta e macia, com bordas generosas.</p>
+        <p class="btn btn-primary btn-custom mt-auto">R$ 60,00</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./fotos/genovesa-Massa-Finna.png" alt="Pizza Genovesa">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title"><strong>Genovesa</strong></h5>
+        <p class="card-text">A pizza produzida em Gênova é outra famosa na Itália. Mais grossa do que a de Nápoles,
+             pode ter massa com até 4 cm de espessura.</p>
+        <p class="btn btn-primary btn-custom mt-auto">R$ 70,00</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./fotos/depp_dish.jpg" alt="Pizza Deep Dish">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title"><strong>Deep Dish</strong></h5>
+        <p class="card-text">A Deep Dish, pizza tradicional da cidade de Chicago (EUA), vai mudar seu conceito de massa grossa. Ela têm aparência próxima a de uma torta,
+             com uma farta crosta de massa e várias camadas de queijo, molho e demais recheios.
+              Ela é montada em uma panela assadeira bastante alta e a massa tem textura próxima a de um biscoito.</p>
+        <p class="btn btn-primary btn-custom mt-auto">R$ 85,00</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./fotos/pizza_pan.jpg" alt="Pizza Pan">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title"><strong>Pan</strong></h5>
+        <p class="card-text">A Pizza Pan, comum em redes de fast food e popularizada pelos americanos, tem uma massa bem consistente, porém aerada,
+            lembrando um pão. Ela é montada numa panela assadeira, por isso o nome pan, que é panela em inglês.</p>
+        <p class="btn btn-primary btn-custom mt-auto">R$ 62,00</p>
+      </div>
+    </div>
+</section>
+
+<section class="delivery">
+    <h2><strong>Delivery e Fale Conosco</strong></h2>
+    <p>
+        Na <strong>Pizza Riba</strong>, levamos o sabor direto para a sua casa!
+        Nosso serviço de delivery é rápido, seguro e feito com todo cuidado, garantindo que cada pizza chegue quente, fresquinha e deliciosa.
+        Você pode escolher entre nosso cardápio variado, com opções tradicionais e especiais, e fazer seu pedido de forma prática pelo telefone, WhatsApp ou pelo nosso site.
+        Com entregas ágeis e atendimento amigável, queremos que a sua experiência seja tão prazerosa quanto saborear uma pizza recém-saída do forno.
+    </p>
+
+        <div class="row align-items-center"> 
+    
+    <div class="col-md-6">
+        <h4><strong>Vantagens do Nosso Delivery:</strong></h4>
+        <ul>
+            <li>Pedido rápido e prático</li>
+            <li>Entrega em tempo recorde</li>
+            <li>Embalagens que preservam o sabor e a temperatura</li>
+            <li>Atendimento personalizado para tornar sua experiência única</li>
+        </ul>
+    </div>
+
+    <div class="col-md-3">
+        <div class="mb-4">
+            <p><strong>Fale Conosco</strong></p>
+            <label for="exampleFormControlInput1" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite o Nome...">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
+        </div>
+       <button type="submit" class="btn btn-pizza">Enviar</button>
+    </div>
+
+</div>
+</section>
+    </main>
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-coluna">
+            <h3>Pizza Riba</h3>
+            <p>Pizzas artesanais feitas com ingredientes frescos e muito sabor.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.0278077948683!2d-46.3202654!3d-23.959456799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03a68aaf89bf%3A0x92ff01c76d2f927a!2sBig%20Pizzas!5e0!3m2!1spt-BR!2sbr!4v1773238182101!5m2!1spt-BR!2sbr" width="300" height="200" style="border-radius:15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>Contato</h4>
+            <p>📍 Rua Exemplo, 123</p>
+            <p>📞 (13) 99999-9999</p>
+            <p>✉ pizzariba@email.com</p>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>Horário</h4>
+            <p>Seg - Qui: 18h às 23h</p>
+            <p>Sex - Dom: 18h às 00h</p>
+        </div>
+
+        <div class="footer-coluna">
+            <h4>Redes Sociais</h4>     
+            <p><img src="./fotos/instagram (2).png" alt="logo do instagram" width="20">&nbsp; Instagram</p>
+            <p><img src="./fotos/facebook.png" width="20" alt="logo do facebook">&nbsp; Facebook</p>
+            <p><img src="./fotos/whatsapp (2).png" width="20" alt="logo do whatsapp">&nbsp; WhatsApp</p>
+        </div>
+
+    </div>
+
+    <div class="footer-direitos">
+        <p>© 2025 Pizza Riba - Todos os direitos reservados</p>
+    </div>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
