@@ -9,4 +9,4 @@ O projeto foi desenvolvido com o objetivo de aprofundar conhecimentos técnicos 
   
 ## Conceitos Praticados
 * **Sistema de Grid (Flexbox):** Organização de layouts complexos usando `container`, `row` e `col`.
-* **Componentes:** Implementação de Navbar, Cards, Modais e Botões.
+* **Componentes:** Implementação de Navbar, Cards, e Botões.
